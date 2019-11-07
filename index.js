@@ -10,13 +10,13 @@ function wrapAdjective(flair = "*") {
   return (adjective = "special") => `You are ${flair}${adjective}${flair}!`
 }
 
-const add = () => 1 + 3
+const add = (a, b) => a + b
 
-const subtract = () => 1 - 3
+const subtract = (a, b) => a - b
 
-const multiply = () => 1 * 3
+const multiply = (a, b) => a * b
 
-const divide = () => 10 / 5
+const divide = (a, b) => a / b
 
 const actionApplyer = (int, funcArr) => {
   if (funcArr.length === 0) {
